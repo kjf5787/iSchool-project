@@ -1,0 +1,31 @@
+/* Accordion styles */
+
+.minorsList {
+    padding: 0 20px;
+}
+
+.minorAccordion {
+    padding-bottom: 5px;
+}
+
+.Accordion {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px !important;
+}
+
+.accordionDetails {
+    width: 95%;
+    margin: auto;
+}
+
+.minorNote {
+    padding: 10px 0;
+}
+
+/* courses styles */ 
+.coursesSection {
+    padding: 10px 0 0 0;
+}
+
+.courseCards {
+    margin: 0 0 10px 0;
+}

@@ -1,0 +1,46 @@
+.TabPane {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px !important;
+}
+
+.peopleList{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.peopleList > * {
+    flex: 1 1 180px;
+}
+
+.peopleListItem {
+    min-height: 210px;
+    margin: 1em;
+    padding-top: 1em;
+    border: 2px solid #eee;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.peopleListItem > img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Modal styles */
+
+.pplButton {
+    font-size: 14px !important;
+}
+
+.modalBox {
+    border-radius: 4px;
+    border: 0px !important;
+}
+
+.modalBoldText {
+    font-weight: 600 !important;
+}
+
+.modalImg {
+    padding: 10px 0;
+}
